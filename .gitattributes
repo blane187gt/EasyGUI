@@ -1,0 +1,10 @@
+audios/1.wav filter=lfs diff=lfs merge=lfs -text
+audios/10.wav filter=lfs diff=lfs merge=lfs -text
+audios/2.wav filter=lfs diff=lfs merge=lfs -text
+audios/3.wav filter=lfs diff=lfs merge=lfs -text
+audios/4.wav filter=lfs diff=lfs merge=lfs -text
+audios/5.wav filter=lfs diff=lfs merge=lfs -text
+audios/6.wav filter=lfs diff=lfs merge=lfs -text
+audios/7.wav filter=lfs diff=lfs merge=lfs -text
+audios/8.wav filter=lfs diff=lfs merge=lfs -text
+audios/9.wav filter=lfs diff=lfs merge=lfs -text
