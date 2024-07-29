@@ -1473,12 +1473,8 @@ def zip_downloader(model):
 with gr.Blocks(theme=gr.themes.Base(), title='Mangio-RVC-Web 💻') as app:
     with gr.Tabs():
         with gr.TabItem("Inference"):
-            gr.HTML("<h1>  RVC V2 Huggingface Version   </h1>")    
-            gr.HTML("<h4>   Inference may take time because this space does not use GPU :(  </h4>")
-            gr.HTML("<h10>   Huggingface version made by Clebersla   </h10>")   
-            gr.HTML("<h10>   Easy GUI coded by Rejekt's   </h10>")
-            gr.HTML("<h4>  If you want to use this space privately, I recommend you duplicate the space.  </h4>")
-
+            gr.HTML("<h1>  EasygUI   </h1>")    
+            
             # Inference Preset Row
             # with gr.Row():
             #     mangio_preset = gr.Dropdown(label="Inference Preset", choices=sorted(get_presets()))
@@ -1502,7 +1498,7 @@ with gr.Blocks(theme=gr.themes.Base(), title='Mangio-RVC-Web 💻') as app:
                     label=i18n("请选择说话人id"),
                     value=0,
                     visible=False,
-                    interactive=True,
+                    interactive=False,
                 )
                 #clean_button.click(fn=clean, inputs=[], outputs=[sid0])
                 sid0.change(
