@@ -1,14 +1,4 @@
----
-title: RVC V2
-emoji: 💻
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-sdk_version: 3.42.0
-app_file: app.py
-pinned: false
-license: lgpl-3.0
----
+# Easy GUI
 
 ## 🔧 Pre-requisites
 
@@ -19,9 +9,9 @@ Also, you will need to clone the repository:
 
 ```bash
 # Clone the repository
-git clone https://huggingface.co/spaces/mateuseap/magic-vocals/
+git clone https://github.com/Nex432/EasyGUI.git
 # Enter in the root directory
-cd magic-vocals
+cd EasygUI
 ```
 
 ## 🚀 How to run
